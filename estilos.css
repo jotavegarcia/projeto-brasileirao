@@ -1,0 +1,862 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: black;
+    color: black;
+    background: url('./imagens/fundo.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px 1px 50px;
+}
+
+header .logo {
+    width: 300px;
+}
+
+header .logo:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+section#a {
+    text-align: center;
+}
+
+section#a img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+}
+
+section#a img:hover {
+    background-color: whitesmoke;
+    border: 2px solid rgba(255, 255, 255, 0.616);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform .3s, border 1s;
+}
+
+section#b {
+    text-align: center;
+}
+
+section#b img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+}
+
+section#b img:hover {
+    background-color: whitesmoke;
+    border: 2px solid rgba(255, 255, 255, 0.616);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform .3s, border 1s;
+}
+
+section#c {
+    text-align: center;
+}
+
+section#c img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+}
+
+section#c img:hover {
+    background-color: whitesmoke;
+    border: 2px solid rgba(255, 255, 255, 0.616);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform .3s, border 1s;
+}
+
+main {
+    padding: 50px;
+}
+
+main .times {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+main .escudo {
+    background-color: #F2F2F2;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: butt;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .escudo:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: #f2f2f277;
+}
+
+main .informacoes {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+main .imagem {
+    width: 180px;
+    height: 180px;
+}
+
+
+main .informacoes {
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.america {
+    background-color: #038C25;
+    color: #C9F2D7;
+    max-width: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+
+.athletico{
+    background-color: #BF1131;
+    color: #262321;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.atletico-mg {
+    background-color: #262626;
+    color: #F2F2F2;
+    max-width: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.bahia {
+    background-color: #03588C;
+    color: #F2F2F2;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.botafogo {
+    background-color: #0D0D0D;
+    color: #A6A6A6;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.bragantino {
+    background-color: #071359;
+    color: #F2294E;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.corinthians {
+    background-color: #D92929;
+    color: #0D0D0D;
+    max-width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.coritiba {
+    background-color: #02733E;
+    color: #F2F2F2;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.cruzeiro {
+    background-color: #0477BF;
+    color: #F2F2F2;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.cuiaba {
+    background-color: #027333;
+    color: #F2CB05;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.flamengo {
+    background-color: #BF2121;
+    color: #04050D;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.fluminense {
+    background-color: #8C0327;
+    color: #02733E;
+    max-width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.fortaleza {
+    background-color: #2B308C;
+    color: #F22F1D;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.goias {
+    background-color: #01401C;
+    color: #B0BFB8;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.gremio {
+    background-color: #245CA6;
+    color: #0D0D0D;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.internacional {
+    background-color: #F2071B;
+    color: #F2F2F2;
+    max-width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.palmeiras {
+    background-color: #02733E;
+    color: #F2F2F2;
+    max-width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.santos {
+    background-color: #0D0D0D;
+    color: #F2F2F2;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.sao-paulo {
+    background-color: #F21628;
+    color: #0D0D0D;
+    max-width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.vasco {
+    background-color: #0D0D0D;
+    color: #F2F2F2;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.abc {
+    background-color: #0D0D0D;
+    color: #F2F2F2;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.atletico-go {
+    background-color: #D91A1A;
+    color: #0D0D0D;
+    max-width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.avai {
+    background-color: #05AFF2;
+    color: #BBF2F2;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.botafogo-sp {
+    background-color: #F22727;
+    color: #0D0D0D;
+    max-width: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.ceara {
+    background-color: #0D0D0D;
+    color: #BFBFBF;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.chapecoense {
+    background-color: #038C17;
+    color: #BAD9BC;
+    max-width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.crb {
+    background-color: #BF0426;
+    color: #F2F2F2;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.criciuma {
+    background-color: #F2CC0C;
+    color: #0D0D0D;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.novorizontino {
+    background-color: #0D0D0D;
+    color: #F2D027;
+    max-width: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.guarani {
+    background-color: #027353;
+    color: #F2F2F2;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.ituano {
+    background-color: #0F2624;
+    color: #F21D2F;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.juventude {
+    background-color: #388C2B;
+    color: #F2F2F2;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px; 
+}
+
+.londrina {
+    background-color: #05AFF2;
+    color: #F2F2F2;
+    max-width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px; 
+}
+
+.mirassol {
+    background-color: #F2CB05;
+    color: #038C4C;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.ponte-preta {
+    background-color: #0D0D0D;
+    color: #BFBFBF;
+    max-width: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.sampaio-correa {
+    background-color: #F2B90C;
+    color: #D91A2A;
+    max-width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.sport {
+    background-color: #D93D4A;
+    color: #303030;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.tombense {
+    background-color: #F21D2F;
+    color: #F2F2F2;
+    max-width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.vila-nova {
+    background-color: #D90404;
+    color: #F2F2F2;
+    max-width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.vitoria {
+    background-color: #0D0D0D;
+    color: #DA251D;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.altos {
+    background-color: #038C3E;
+    color: #f2f2f2;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px; 
+}
+
+.amazonas {
+    background-color: #F2B705;
+    color: #0D0D0D;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px; 
+}
+
+.america-rn {
+    background-color: #F24444;
+    color: #F2E0D5;
+    max-width: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px; 
+}
+
+.aparecidense {
+    background-color: #011640;
+    color: #8C8354;
+    max-width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px; 
+}
+
+.botafogo-pb {
+    background-color: #0D0D0D;
+    color: #F20C0C;
+    max-width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px; 
+}
+
+.brusque {
+    background-color: #A68D12;
+    color: #2E8C46;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.confianca {
+    background-color: #034AA6;
+    color: #F2F2F2;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.csa {
+    background-color: #023E73;
+    color: #F2F2F2;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px; 
+}
+
+.figueirense {
+    background-color: #262626;
+    color: #F2F2F2;
+    max-width: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.floresta {
+    background-color: #025930;
+    color: #F2F2F2;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.manaus {
+    background-color: #2DA63F;
+    color: #0D0D0D;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px; 
+}
+
+.nautico {
+    background-color: #D94E41;
+    color: #F2F2F2;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px; 
+}
+
+.operario {
+    background-color: #0D0D0D;
+    color: #F2F2F2;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;  
+}
+
+.paysandu {
+    background-color: #04B2D9;
+    color: #F2F2F2;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.pouso-alegre {
+    background-color: #8b212b;
+    color: #0D0D0D;
+    max-width: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.remo {
+    background-color: #080326;
+    color: #7E7B8C;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px; 
+}
+
+.sao-bernardo {
+    background-color: #F2E530;
+    color: #0D0D0D;
+    max-width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.sao-jose {
+    background-color: #010440;
+    color: #F2F2F2;
+    max-width: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.volta-redonda {
+    background-color: #0D0D0D;
+    color: #F2F2F2;
+    max-width: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.ypiranga {
+    background-color: #038C25;
+    color: #F2E52E;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
