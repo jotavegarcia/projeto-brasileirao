@@ -1,7 +1,7 @@
 # Projeto Brasileirão 2023
 Um projeto de listagem com todos os clubes de futebol que integram o Campeonato Brasileiro das séries A, B e C do ano de 2023.⚽
 
-[<img src="./tela.gif" alt="gif da tela da série A do projeto brasileirão 2023">](https://jotavegarcia.github.io/projeto-brasileirao/a.html)
+[<img src="./imagens/tela.gif" alt="gif da tela da série A do projeto brasileirão 2023">](https://jotavegarcia.github.io/projeto-brasileirao/a.html)
 
 ## Tecnologias utilizadas
 -HTML
