@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
     background-color: black;
     color: black;
-    background: url('./imagens/fundo.jpeg');
+    background: url('./imagens/background.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
