@@ -860,3 +860,51 @@ main .informacoes {
     padding: 9px;
     border-radius: 10px;
 }
+
+.athletic {
+    background-color: #0D0D0D;
+    color: #F2F2F2;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.caxias {
+    background-color: #8C035C;
+    color: #0477BF;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.ferroviaria {
+    background-color: #59191E;
+    color: #F2F2F2;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.ferroviario {
+    background-color: #0D0D0D;
+    color: #F21D2F;
+    max-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
